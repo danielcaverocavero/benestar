@@ -1,0 +1,60 @@
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px){
+    
+    .containermenu{
+       font-size: 15px;
+    }
+    .descripcion{
+      flex-wrap: wrap-reverse;       
+   }
+    .descripcion p{
+       font-size: 15px;    
+       padding: 25px;
+    }
+    
+     /* que hay en este alojamiento  */
+    .galeriacontainer{               
+       grid-template-columns:auto ;
+    }
+    .listado{
+      flex: 60%;
+    }
+   .galeria{
+      display: flex;
+      flex: 40%;
+    }
+ }
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .containermenu{
+       font-size: 15px;
+    }
+    .descripcion{
+      flex-wrap: wrap-reverse;       
+   }
+     .descripcion p{
+       font-size: 15px;    
+       padding: 25px;
+    }
+}
+  
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .descripcion{
+      flex-wrap: wrap-reverse;     
+   }
+    .descripcion p{
+       font-size: 20px;
+    }
+    
+}
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .descripcion{
+      flex-wrap: nowrap;              
+   }    
+}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px){}
