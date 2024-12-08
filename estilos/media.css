@@ -1,6 +1,8 @@
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px){
-    
+     body{
+       margin: 0px 0px 15px 0px;    
+   }    
     .containermenu{
        font-size: 15px;
     }
