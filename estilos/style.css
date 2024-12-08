@@ -5,19 +5,26 @@
 }
 
 body{
-    margin: 50px 50px 250px 50px;
+    margin: 50px 50px 150px 50px;    
 }
 img{
     width: 100%;
     height: auto;
 }
 h1{    
-    text-align: center;
+    text-align: center;    
 }
 p{
     font-size: 20px;
+    text-align: justify;
 }
-
+li{
+    font-size: 20px;
+}
+span{
+    text-decoration-line: underline;
+    font-weight: bold;
+}
 
 /* logo ------------------------------*/
 .logo img{
@@ -65,16 +72,15 @@ p{
 
 .descripcion p {    
     padding:  15px;
-    text-align: justify;
+    margin: 15px;    
     border: 1px solid black;
     border-radius: 15px;
     box-shadow: 10px 10px 5px grey;  
 }
 .descripcion img{
-    border-radius: 15px;
-    margin: 20px;
-    border: 1px solid black;
+    border-radius: 15px;    
     box-shadow: 10px 10px 5px grey;
+    margin: 15px;
 }
 /*
 listalojamiento{
@@ -98,9 +104,23 @@ listalojamiento{
     display: grid;
     grid-template-columns: auto auto auto;
     box-shadow: 1px 15px 15px;
+    margin-bottom: 55px;
+}
+.imagenzindex{
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px grey;
 }
 
-/* scroll to top buttom */
+/* NORMAS DE LA CASA*/
+#normas{
+    border: 1px solid black;
+    background-color: #2f5578;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* scroll to top buttom ******************************************************
+*****************************************************************************/
 
 #myBtn {    
     position: fixed; /* Fixed/sticky position */
@@ -120,3 +140,10 @@ listalojamiento{
   #myBtn:hover {
     background-color: red; /* Add a dark-grey background on hover */
   }
+/* *****************************************************************************
+****************************************************************************** */
+
+  /* footer */
+  
+
+/*************footer End*****************/
