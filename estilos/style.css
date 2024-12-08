@@ -25,11 +25,17 @@ span{
     text-decoration-line: underline;
     font-weight: bold;
 }
+blockquote{
+    background-color: silver;
+    padding: 20px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 15px;
+} 
 
 /* logo ------------------------------*/
 .logo img{
     width: 100%;
-    height: auto;
+    height: auto;    
 }
 
 .logocontainer{    
@@ -118,6 +124,7 @@ listalojamiento{
     border-radius: 15px;
     text-align: center;
 }
+
 
 /* scroll to top buttom ******************************************************
 *****************************************************************************/
