@@ -49,14 +49,6 @@
  
  /* Large devices (laptops/desktops, 992px and up) */
  @media only screen and (min-width: 992px) {
-    .descripcion img{
-       width: 50%;       
-   }
-    .descripcion p{
-       width: 40%;
-       float: right;
-    }
-   
 }
  
  /* Extra large devices (large laptops and desktops, 1200px and up) */
