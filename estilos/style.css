@@ -89,8 +89,7 @@ blockquote{
 }
 .descripcion img{
     border-radius: 15px;    
-    box-shadow: 10px 10px 5px grey;
-    margin: 15px;
+    box-shadow: 10px 10px 5px grey;   
 }
 
 .listalojamiento ul li{
@@ -130,18 +129,10 @@ blockquote{
     border-radius: 15px;
     text-align: center;
     font-size: 25px;
-    padding: 15px;
-    animation: 5s infinite;
-
+    padding: 15px;    
 }
 
-@keyframes mymove {
-    0%   { background-image: linear-gradient(red, yellow);}
-    25%  { background-image: linear-gradient(to right, red , yellow);}
-    50%  { background-image: linear-gradient(to bottom right, red, yellow);}
-    75%  { background-image: linear-gradient(to right, red , yellow);}
-    100% { background-image: linear-gradient(red, yellow);}
-  }
+
 
 /* scroll to top buttom ******************************************************
 *****************************************************************************/
